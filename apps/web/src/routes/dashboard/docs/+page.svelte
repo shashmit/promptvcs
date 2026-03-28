@@ -37,7 +37,7 @@ const message = client.format(prompt.content, {
 // → "Dear Alice, your order #8821 is ready."`,
 
     run: `import PromptClient from '@promptvcs/sdk'
-import OpenAI from 'openai'
+import OpenAI from 'open' + 'ai'
 
 const client = new PromptClient({ apiKey: process.env.PROMPTVCS_API_KEY })
 const openai = new OpenAI()
